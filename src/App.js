@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './blocks/about/About';
+import Artist from './blocks/artist/Artist';
+import Billboard from './blocks/billboard/Billboard';
+import Contacts from './blocks/contacts/Contacts';
+import Footer from './blocks/footer/Footer';
+import Header from './blocks/header/Header';
+import Intro from './blocks/intro/Intro';
+import { Helmet } from 'react-helmet';
+import Slider from './blocks/slider/Slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Intro/>
+      <Helmet>
+        <script
+          src="https://ticketscloud.com/static/scripts/widget/tcwidget.js"
+          async
+        />
+      </Helmet>
+      <About/>
+      <Billboard/>
+      <Artist/>
+      <Slider/>
+      <Contacts/>
+      <Footer/>
     </div>
   );
 }

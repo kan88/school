@@ -1,0 +1,17 @@
+.command {
+    margin-bottom: 30px;
+    &__title {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        text-align: left;
+    }
+    &__image {
+        align-self: flex-end;
+    }
+}

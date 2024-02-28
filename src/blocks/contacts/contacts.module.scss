@@ -1,0 +1,25 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    background-color: #756AB6;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: flex-start;
+        text-align: left;
+        max-width: 250px;
+    }
+    &__map {
+        width: 100%;
+        max-width: 600px;
+        max-height: 400px;
+        margin-bottom: 30px;
+    }
+}
