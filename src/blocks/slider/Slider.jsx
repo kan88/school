@@ -33,7 +33,7 @@ export default function Slider() {
     <section className={styles.slider}>
         <Title>Фото со спектакля</Title>
         <Swiper
-            slidesPerView={countSlides + 0.3}
+            slidesPerView={countSlides < 1 ? 1 : countSlides}
             spaceBetween={30}
             pagination={{
             clickable: true,
