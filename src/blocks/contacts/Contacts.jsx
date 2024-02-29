@@ -4,7 +4,7 @@ import styles from './contacts.module.scss'
 
 export default function Contacts() {
   return (
-    <section className={styles.contacts}>
+    <section id="contacts" className={styles.contacts}>
         <Title>Афиша</Title>
         <div className={styles.contacts__wrapper}>
           <iframe
