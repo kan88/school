@@ -5,7 +5,7 @@ import styles from './contacts.module.scss'
 export default function Contacts() {
   return (
     <section id="contacts" className={styles.contacts}>
-        <Title>Афиша</Title>
+        <Title>Контакты</Title>
         <div className={styles.contacts__wrapper}>
           <iframe
             src="https://yandex.ru/map-widget/v1/-/CDq3jXYv"
