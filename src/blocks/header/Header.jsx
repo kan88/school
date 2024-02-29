@@ -10,7 +10,7 @@ export default function Header() {
         <Menu right customCrossIcon={ <img src={close} alt='close' /> }  customBurgerIcon={ <img src={menu} alt='open'/> }>
             <a id="home" className={styles.header__link} href="#about">О спектакле</a>
             <a id="about" className={styles.header__link} href="#billboard">Афиша</a>
-            <a id="contact" className={styles.header__link} href="#contact">Контакты</a>
+            <a id="contact" className={styles.header__link} href="#contacts">Контакты</a>
         </Menu>
     </header>
   )
