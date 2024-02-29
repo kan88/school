@@ -1,12 +1,28 @@
 .intro {
-    padding: 0 30px 50px;
-    padding-top: 250px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    position: relative;
     &__title {
         font-family: "IncVerse";
         text-align: left;
         margin-bottom: 10px;
+    }
+    &__video {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+    &__content {
+        position: absolute;
+        bottom: 80px;
+        color: #f1f1f1;
+        width: 100%;
+        padding: 50px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
