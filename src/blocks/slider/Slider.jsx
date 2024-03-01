@@ -13,6 +13,8 @@ import photo9 from '../../assets/photos/9.jpg'
 import photo10 from '../../assets/photos/10.jpg'
 import photo11 from '../../assets/photos/11.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import video from '../../assets/video/1.mp4'
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -53,6 +55,10 @@ export default function Slider() {
             <SwiperSlide><img src={photo10} width={350} height={250} alt='scene'></img></SwiperSlide>
             <SwiperSlide><img src={photo11} width={350} height={250} alt='scene'></img></SwiperSlide>
         </Swiper>
+        <Title>Видео со спектакля</Title>
+        <video className={styles.slider__video} autoplay muted loop  controls="controls">
+          <source src={video} type="video/mp4" />
+        </video>
     </section>
   );
 }
