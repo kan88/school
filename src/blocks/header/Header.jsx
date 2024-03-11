@@ -8,9 +8,9 @@ export default function Header() {
   return (
     <header className={styles.header}>      
         <Menu right customCrossIcon={ <img src={close} alt='close' /> }  customBurgerIcon={ <img src={menu} alt='open'/> }>
-            <a id="home" className={styles.header__link} href="#about">О спектакле</a>
-            <a id="about" className={styles.header__link} href="#billboard">Афиша</a>
-            <a id="contact" className={styles.header__link} href="#contacts">Контакты</a>
+            <a  className={styles.header__link} href="#about">О спектакле</a>
+            <a  className={styles.header__link} href="#billboard">Афиша</a>
+            <a  className={styles.header__link} href="#contacts">Контакты</a>
         </Menu>
     </header>
   )

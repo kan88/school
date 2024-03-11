@@ -22,8 +22,8 @@ function App() {
       </Helmet>
       <About/>
       <Billboard/>
-      <Artist/>
       <Slider/>
+      <Artist/>
       <Contacts/>
       <Footer/>
     </div>
